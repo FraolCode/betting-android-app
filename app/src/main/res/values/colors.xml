@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#750152</color>
+    <color name="colorPrimaryDark">#750152</color>
+    <color name="colorSecondary">#E75370</color>
+    <color name="colorSecondaryDark">#C35CEF</color>
+    <color name="colorPrimarya">#FF9342</color>
+    <color name="colorPrimaryDarka">#FF3A2D</color>
+
+    <color name="clr_otp_bg">#535288</color>
+    <color name="black">#000</color>
+    <color name="clr_otp_btn_yellow">#F8CD06</color>
+    <color name="clr_white_text">#FFFFFF</color>
+    <color name="clr_grey_text">#D3D3D3</color>
+    <color name="clr_grey_text_transparent">#80D3D3D3</color>
+    <color name="white">#FFF</color>
+    
+    
+    <color name="bg1">#5F0141</color>
+    <color name="bg">#750152</color>
+    <color name="bg2">#E35536</color>
+    <color name="bg3">#750152</color>
+    <color name="bg4">#ca3e47</color>
+</resources>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/add_betting"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".addBettinglist">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add new Betting"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="@font/aclonica"
+                android:layout_centerVertical="true"></TextView>
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/back_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_icon="@drawable/back"
+                android:layout_marginRight="20px"
+                fab:fab_colorNormal="@color/bg2"
+                fab:fab_colorPressed="@color/bg4"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="16dp"/>
+
+        </RelativeLayout>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Betting name"
+
+        android:textColor="@android:color/black"
+        android:layout_margin="10dp"
+        android:background="@drawable/editborder"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:id="@+id/name_et_cp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Betting Birr amount"
+        android:textColor="@android:color/black"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        android:background="@drawable/editborder"
+        android:padding="10dp"
+        android:id="@+id/birr_et_cp"
+     />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="10px"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:text="player numbers"></TextView>
+
+        <NumberPicker
+            android:id="@+id/numberpicker"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_weight="3"
+            android:layout_height="74dp"></NumberPicker>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <Switch
+            android:id="@+id/passwordS"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Password" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="********"
+            android:layout_weight="1"
+            android:textColorHint="@color/black"
+            android:textColor="@android:color/black"
+            android:layout_margin="10dp"
+            android:inputType="number"
+            android:id="@+id/password1"
+            android:background="@drawable/editborder"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/passwordAgainTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="password again"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="20dp"></TextView>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="********"
+            android:textColorHint="@color/black"
+            android:textColor="@android:color/black"
+            android:layout_margin="10dp"
+            android:inputType="number"
+            android:id="@+id/password2"
+            android:background="@drawable/editborder"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:id="@+id/create"
+        android:layout_margin="10dp"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

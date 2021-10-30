@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_a"
+        android:icon="@drawable/icon_one_foreground"
+        android:title="Birr winners" />
+
+    <item
+        android:id="@+id/nav_b"
+        android:icon="@drawable/icon_three_foreground"
+        android:title="Birr winners" />
+
+    <item
+        android:id="@+id/nav_c"
+        android:icon="@drawable/icon_five_foreground"
+        android:title="Birr winners" />
+    <item
+        android:id="@+id/nav_d"
+        android:icon="@drawable/icon_ten_foreground"
+        android:title="Birr winners" />
+    <item
+        android:id="@+id/nav_e"
+        android:icon="@drawable/icon_fifteen_foreground"
+        android:title="Birr winners"></item>
+
+
+
+
+
+</menu>

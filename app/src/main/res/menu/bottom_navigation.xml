@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_allbet"
+        android:fontFamily="@font/aclonica"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="All bets" />
+    <item
+        android:fontFamily="@font/aclonica"
+        android:id="@+id/nav_todays"
+        android:icon="@drawable/time"
+        android:title="Time" />
+    <item
+        android:id="@+id/nav_Win"
+        android:fontFamily="@font/aclonica"
+        android:icon="@drawable/win"
+        android:title="Last Winners" />
+</menu>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+  <!--  <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.aker.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />-->
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.aker.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.aker.ui.gallery.GalleryFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_gallery" />
+
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.aker.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_all"
+        tools:layout="@layout/fragment_slideshow" />
+   <!-- <fragment
+        android:id="@+id/nav_Other"
+        android:name="com.example.aker.ui.other.OtherFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_other" />-->
+  <fragment
+        android:id="@+id/nav_Other"
+        android:name="com.example.aker.myBet"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_my_bet" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.aker.ui.profile.profileFragment"
+        android:label="@string/menu_Profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>
