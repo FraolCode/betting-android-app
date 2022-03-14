@@ -63,6 +63,7 @@ public class HomeFragment extends Fragment {
     String fromA;
     String getSendBirr;
     String UserCurrentBirr;
+    String Us;
 
 
     public View onCreateView(@NonNull LayoutInflater inflater,
